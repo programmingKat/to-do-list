@@ -1,0 +1,22 @@
+ol{
+    list-style-type: none;
+}
+
+.checked {
+   text-decoration: line-through;
+}
+
+.flex{
+    display:flex;
+}
+
+#delete-buttons{
+    flex-direction: column;
+    width:100%;
+
+    
+    button{
+        width:30%;
+
+    }
+}
