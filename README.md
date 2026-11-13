@@ -1,22 +1,51 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ To Do List
 
-### Goal: Build a Simple Todo List
+A simple browser-based to-do list built with vanilla HTML, CSS, and JavaScript. Add tasks, check them off, and clear completed or all tasks.
 
-### How to submit your code for review:
+## Features
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- Add new tasks via a text input and submit button
+- Tasks are displayed as a checklist
+- Click a task's checkbox to mark it complete, applying a strike-through style
+- Click the checkbox again to mark it incomplete (removes the strike-through)
+- Delete all completed tasks with one click
+- Delete all tasks (completed and active) with one click
 
-Example:
+## How to Use
+
+1. Open `index.html` in your browser.
+2. Type a task into the input field and click the submit button to add it to the list.
+3. Click the checkbox next to a task to mark it as done (it will appear with a strike-through).
+4. Click **delete completed tasks** to remove all checked-off tasks.
+5. Click **delete all tasks** to clear the entire list.
+
+## Project Structure
+
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+to-do-list/
+├── index.html      # Page structure and layout
+├── css/
+│   └── main.css    # Styling for the list and buttons
+└── js/
+    └── main.js      # Task creation, completion, and deletion logic
 ```
+
+## How It Works
+
+- Submitting the form creates a new `<li>` with a checkbox prepended to it, appended to the `#active-list`.
+- Clicking anywhere on a task list item toggles a `checked` class, which applies the line-through style via CSS.
+- **Delete completed tasks** selects every element with the `checked` class and removes it from the DOM.
+- **Delete all tasks** clears the entire contents of `#active-list`.
+
+## Technologies Used
+
+- HTML5
+- CSS3 (flexbox)
+- Vanilla JavaScript (DOM manipulation, event listeners)
+
+## Possible Improvements
+
+- Add a confirmation prompt before deleting all tasks
+- Allow deleting individual tasks (not just completed or all)
+- Clear the input field automatically after a task is submitted
+- Prevent adding empty/blank tasks
