@@ -49,3 +49,7 @@ to-do-list/
 - Allow deleting individual tasks (not just completed or all)
 - Clear the input field automatically after a task is submitted
 - Prevent adding empty/blank tasks
+
+<img width="1277" height="551" alt="image" src="https://github.com/user-attachments/assets/6daa5af1-fab6-45cf-ae67-de30d1d5958b" />
+<img width="1279" height="536" alt="image" src="https://github.com/user-attachments/assets/280c764b-2eee-4183-97b3-cf00848f37ef" />
+
