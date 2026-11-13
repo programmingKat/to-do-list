@@ -13,7 +13,7 @@ A simple browser-based to-do list built with vanilla HTML, CSS, and JavaScript. 
 
 ## How to access the live site
 
-1. Open [the live site here] (https://programmingkat.github.io/to-do-list/)
+1. Open [the live site here](https://programmingkat.github.io/to-do-list/)
 2. Type a task into the input field and click the submit button to add it to the list.
 3. Click the checkbox next to a task to mark it as done (it will appear with a strike-through).
 4. Click **delete completed tasks** to remove all checked-off tasks.
